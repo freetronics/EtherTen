@@ -1,8 +1,8 @@
-Freetronics EtherTen
-====================
-Copyright 2010 Freetronics Pty Ltd  
-Freetronics site:  <www.freetronics.com>  
-Freetronics email: <info@freetronics.com>  
+Freetronics EtherTen R3
+=======================
+Copyright 2010-2012 Freetronics Pty Ltd  
+Freetronics site:  www.freetronics.com  
+Freetronics email: info@freetronics.com  
 
 The EtherTen is a 100% Arduino Compatible Board, based on the existing
 Duemilanove, but with improvements and updates for ease of use, cost
@@ -34,7 +34,7 @@ The design is saved as an EAGLE project. EAGLE PCB design software is
 available from www.cadsoftusa.com free for non-commercial use. To use
 this project download it and place the directory containing these files
 into the "eagle" directory on your computer. Then open EAGLE and
-navigate to Projects -> eagle -> EtherTen.
+navigate to Projects -> eagle -> EtherTenR3.
 
 
 DISTRIBUTION
