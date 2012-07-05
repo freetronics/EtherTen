@@ -74,11 +74,31 @@
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="fp3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="Beschreib" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="BGA-Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="BD-Top" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
@@ -104,6 +124,11 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
@@ -12650,6 +12675,46 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-1.675" y="2.525"/>
 </polygon>
 </package>
+<package name="USB-MICROB-MB05PMXX">
+<wire x1="-3.4" y1="-2.15" x2="-3" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="3" y1="-2.15" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="-2.15" x2="-3.4" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="-1.45" x2="-3.4" y2="2.85" width="0.127" layer="51"/>
+<wire x1="3.4" y1="2.85" x2="3.2" y2="2.85" width="0.127" layer="51"/>
+<wire x1="3.4" y1="2.85" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="3.4" y1="-1.45" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="1" x2="-3.4" y2="2.85" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="2.85" x2="-3.2" y2="2.85" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="2.85" x2="3.2" y2="2.85" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="1" x2="3.4" y2="2.85" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="2.85" x2="-3.2" y2="2.85" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="-2.15" x2="-4" y2="-2.75" width="0.2032" layer="51"/>
+<wire x1="3.4" y1="-2.15" x2="4" y2="-2.75" width="0.2032" layer="51"/>
+<wire x1="-3" y1="-2.15" x2="-3" y2="-2.55" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="-2.8" x2="2.75" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="3" y1="-2.6" x2="3" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2.55" x2="-2.8" y2="-2.8" width="0.127" layer="51" curve="84.547378"/>
+<wire x1="2.75" y1="-2.8" x2="3" y2="-2.6" width="0.127" layer="51" curve="84.547378"/>
+<smd name="VBUS" x="-1.3" y="2.575" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="GND" x="1.3" y="2.575" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="D-" x="-0.65" y="2.575" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="D+" x="0" y="2.575" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="ID" x="0.65" y="2.575" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="FIX1" x="-1.3" y="0" dx="1.5" dy="2" layer="1"/>
+<smd name="FIX2" x="1.3" y="0" dx="1.5" dy="2" layer="1"/>
+<text x="-1.6" y="-0.35" size="0.762" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.175" size="0.762" layer="27">&gt;VALUE</text>
+<wire x1="-3.4" y1="-2" x2="-3.4" y2="-1" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-2" x2="3.4" y2="-1" width="0.2032" layer="21"/>
+<pad name="TAB1" x="-3.625" y="0.2" drill="0.7"/>
+<pad name="SLOT1" x="-3.625" y="-0.2" drill="0.7"/>
+<pad name="TAB2" x="3.625" y="0.2" drill="0.7"/>
+<pad name="SLOT2" x="3.625" y="-0.2" drill="0.7"/>
+<pad name="PIN1" x="-2.425" y="2.65" drill="0.7"/>
+<pad name="PIN2" x="2.425" y="2.65" drill="0.7"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HY931147C">
@@ -13017,6 +13082,24 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <pin name="XTAL1" x="-20.32" y="10.16" length="middle"/>
 <pin name="XTAL2" x="-20.32" y="15.24" length="middle"/>
 </symbol>
+<symbol name="USB-6P">
+<wire x1="5.08" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="2.54" y="-6.35" size="2.54" layer="95" rot="R90">&gt;NAME</text>
+<pin name="D+" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="D-" x="-5.08" y="-2.54" visible="pad" length="short"/>
+<pin name="VBUS" x="-5.08" y="-5.08" visible="pad" length="short"/>
+<pin name="GND" x="-5.08" y="5.08" visible="pad" length="short"/>
+<pin name="ID" x="-5.08" y="2.54" visible="pad" length="short"/>
+<pin name="TAB1" x="0" y="-12.7" visible="pad" length="short" rot="R90"/>
+<pin name="TAB2" x="0" y="12.7" visible="pad" length="short" rot="R270"/>
+<pin name="FIX1" x="2.54" y="-12.7" visible="pad" length="short" rot="R90"/>
+<pin name="FIX2" x="2.54" y="12.7" visible="pad" length="short" rot="R270"/>
+<pin name="PIN2" x="-5.08" y="7.62" visible="pad" length="short"/>
+<pin name="PIN1" x="-5.08" y="-7.62" visible="pad" length="short"/>
+<text x="5.08" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="HY931147C">
@@ -13087,6 +13170,31 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <connect gate="G$1" pin="VCC" pad="4"/>
 <connect gate="G$1" pin="XTAL1" pad="1"/>
 <connect gate="G$1" pin="XTAL2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB-6P">
+<gates>
+<gate name="G$1" symbol="USB-6P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMT" package="USB-MICROB-MB05PMXX">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="FIX1" pad="FIX1"/>
+<connect gate="G$1" pin="FIX2" pad="FIX2"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="ID" pad="ID"/>
+<connect gate="G$1" pin="PIN1" pad="PIN1"/>
+<connect gate="G$1" pin="PIN2" pad="PIN2"/>
+<connect gate="G$1" pin="TAB1" pad="TAB1"/>
+<connect gate="G$1" pin="TAB2" pad="TAB2"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13983,28 +14091,6 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <smd name="2" x="1.85" y="-1.15" dx="1.9" dy="1.1" layer="1"/>
 <text x="-2.54" y="1.905" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="USB-MINIB-FT">
-<wire x1="-1.3" y1="3.8" x2="0.8" y2="3.8" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="3.1" x2="3.3" y2="2.2" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="-2.2" x2="3.3" y2="-3.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="-3.8" x2="-1.3" y2="-3.8" width="0.2032" layer="21"/>
-<wire x1="-5.9" y1="3.8" x2="-5.9" y2="-3.8" width="0.2032" layer="51"/>
-<wire x1="-5.9" y1="-3.8" x2="-4.5" y2="-3.8" width="0.2032" layer="51"/>
-<wire x1="-5.9" y1="3.8" x2="-4.5" y2="3.8" width="0.2032" layer="51"/>
-<smd name="D+" x="2.5" y="0" dx="2.5" dy="0.5" layer="1"/>
-<smd name="D-" x="2.5" y="0.8" dx="2.5" dy="0.5" layer="1"/>
-<smd name="GND" x="2.5" y="-1.6" dx="2.5" dy="0.5" layer="1"/>
-<smd name="ID" x="2.5" y="-0.8" dx="2.5" dy="0.5" layer="1"/>
-<smd name="SH1" x="-3" y="-4.5" dx="2.5" dy="2" layer="1"/>
-<smd name="SH2" x="-3" y="4.5" dx="2.5" dy="2" layer="1"/>
-<smd name="SH4" x="2.5" y="-4.5" dx="2.5" dy="2" layer="1"/>
-<smd name="SH3" x="2.5" y="4.5" dx="2.5" dy="2" layer="1"/>
-<smd name="VBUS" x="2.5" y="1.6" dx="2.5" dy="0.5" layer="1"/>
-<text x="-3.81" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-3.81" y="0" size="0.4064" layer="27">&gt;VALUE</text>
-<hole x="0" y="2.2" drill="0.9"/>
-<hole x="0" y="-2.2" drill="0.9"/>
 </package>
 <package name="INDUCTOR-1206">
 <wire x1="-1.778" y1="2.032" x2="-3.81" y2="2.032" width="0.127" layer="21"/>
@@ -14915,21 +15001,6 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="USB-FT">
-<wire x1="2.54" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<text x="4.318" y="1.27" size="2.54" layer="94" rot="R90">USB</text>
-<pin name="D+" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="D-" x="12.7" y="7.62" length="short" rot="R180"/>
-<pin name="VBUS" x="12.7" y="10.16" length="short" rot="R180"/>
-<pin name="GND" x="12.7" y="0" length="short" rot="R180"/>
-<pin name="SH$4" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="SH$3" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="SH$2" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="SH$1" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="ID" x="12.7" y="2.54" length="short" rot="R180"/>
-</symbol>
 <symbol name="INDUCTOR">
 <wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
 <wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90" cap="flat"/>
@@ -15122,29 +15193,6 @@ Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="USB-FT">
-<gates>
-<gate name="G$1" symbol="USB-FT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="USB-MINIB-FT">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="ID" pad="ID"/>
-<connect gate="G$1" pin="SH$1" pad="SH1"/>
-<connect gate="G$1" pin="SH$2" pad="SH2"/>
-<connect gate="G$1" pin="SH$3" pad="SH3"/>
-<connect gate="G$1" pin="SH$4" pad="SH4"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16304,7 +16352,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <part name="Z2" library="freetronics" deviceset="RESISTOR" device="0603" value="PGB1010603"/>
 <part name="L3" library="freetronics-master-v1" deviceset="INDUCTOR" device="0805-LARGE" value="0805 INDUCTOR"/>
 <part name="C11" library="freetronics" deviceset="CAP" device="0603" value="1uF 0603"/>
-<part name="P1" library="freetronics-master-v1" deviceset="USB-FT" device=""/>
 <part name="GND38" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND39" library="SparkFun" deviceset="GND" device=""/>
 <part name="P2" library="pinhead" deviceset="PINHD-2X3" device="" value="ICSP:MAIN"/>
@@ -16348,6 +16395,7 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <part name="FID3" library="freetronics" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="JP1" library="freetronics-master-v1" deviceset="M08" device=""/>
 <part name="JP2" library="freetronics-original" deviceset="M10" device="0.1"/>
+<part name="P1" library="freetronics-jon" deviceset="USB-6P" device="SMT"/>
 </parts>
 <sheets>
 <sheet>
@@ -16366,12 +16414,11 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="233.68" y1="251.46" x2="238.76" y2="251.46" width="0.1524" layer="94"/>
 <wire x1="233.68" y1="220.98" x2="238.76" y2="220.98" width="0.1524" layer="94"/>
 <wire x1="378.46" y1="146.05" x2="257.81" y2="146.05" width="0.4064" layer="97" style="longdash"/>
-<wire x1="378.46" y1="100.33" x2="257.81" y2="100.33" width="0.4064" layer="97" style="longdash"/>
-<wire x1="378.46" y1="100.33" x2="499.11" y2="100.33" width="0.4064" layer="97" style="longdash"/>
+<wire x1="347.98" y1="100.33" x2="257.81" y2="100.33" width="0.4064" layer="97" style="longdash"/>
+<wire x1="347.98" y1="100.33" x2="499.11" y2="100.33" width="0.4064" layer="97" style="longdash"/>
 <wire x1="327.66" y1="99.06" x2="327.66" y2="52.07" width="0.4064" layer="97" style="longdash"/>
 <wire x1="327.66" y1="52.07" x2="332.74" y2="52.07" width="0.4064" layer="97" style="longdash"/>
 <wire x1="332.74" y1="52.07" x2="332.74" y2="5.08" width="0.4064" layer="97" style="longdash"/>
-<wire x1="378.46" y1="181.356" x2="378.46" y2="100.33" width="0.4064" layer="97" style="longdash"/>
 <wire x1="327.66" y1="52.07" x2="257.81" y2="52.07" width="0.4064" layer="97" style="longdash"/>
 <wire x1="233.68" y1="226.06" x2="238.76" y2="226.06" width="0.1524" layer="94"/>
 <circle x="238.76" y="259.08" radius="1.27" width="0.1524" layer="94"/>
@@ -16435,6 +16482,8 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <frame x1="393.7" y1="5.08" x2="497.84" y2="17.78" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 <frame x1="393.7" y1="5.08" x2="431.8" y2="10.16" columns="8" rows="5" layer="94"/>
 <frame x1="467.36" y1="5.08" x2="497.84" y2="10.16" columns="8" rows="5" layer="94"/>
+<wire x1="347.98" y1="145.796" x2="347.98" y2="100.33" width="0.4064" layer="97" style="longdash"/>
+<wire x1="378.46" y1="181.356" x2="378.46" y2="146.05" width="0.4064" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="H3" gate="G$1" x="17.78" y="223.52" rot="MR180"/>
@@ -16728,7 +16777,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <attribute name="NAME" x="415.29" y="145.161" size="1.778" layer="95"/>
 <attribute name="VALUE" x="403.098" y="140.335" size="1.778" layer="96"/>
 </instance>
-<instance part="P1" gate="G$1" x="381" y="121.92"/>
 <instance part="GND38" gate="1" x="429.26" y="132.08"/>
 <instance part="GND39" gate="1" x="431.8" y="101.6" smashed="yes">
 <attribute name="VALUE" x="434.34" y="101.6" size="1.778" layer="96"/>
@@ -16863,6 +16911,10 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <instance part="FID3" gate="G$1" x="241.3" y="20.32"/>
 <instance part="JP1" gate="G$1" x="17.78" y="251.46" rot="MR180"/>
 <instance part="JP2" gate="G$1" x="236.22" y="264.16" rot="MR0"/>
+<instance part="P1" gate="G$1" x="375.92" y="127" smashed="yes" rot="R180">
+<attribute name="NAME" x="375.92" y="125.73" size="2.54" layer="95" rot="R90"/>
+<attribute name="VALUE" x="373.38" y="119.38" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17280,33 +17332,16 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pinref part="RN8" gate="C" pin="1"/>
 </segment>
 <segment>
+<pinref part="IC3" gate="G$1" pin="PAD"/>
 <wire x1="434.34" y1="104.14" x2="434.34" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="431.8" y1="104.14" x2="434.34" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="104.14" x2="424.18" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="424.18" y1="104.14" x2="431.8" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="434.34" y1="116.84" x2="424.18" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="424.18" y1="116.84" x2="421.64" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="114.3" x2="421.64" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="421.64" y1="116.84" x2="419.1" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="419.1" y1="109.22" x2="419.1" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="104.14" x2="416.56" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="109.22" x2="419.1" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="393.7" y1="121.92" x2="403.86" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="403.86" y1="121.92" x2="403.86" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="403.86" y1="109.22" x2="416.56" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="424.18" y1="104.14" x2="424.18" y2="116.84" width="0.1524" layer="91"/>
 <junction x="431.8" y="104.14"/>
-<junction x="424.18" y="104.14"/>
-<junction x="421.64" y="116.84"/>
-<junction x="416.56" y="109.22"/>
-<junction x="424.18" y="116.84"/>
-<pinref part="IC3" gate="G$1" pin="PAD"/>
 <pinref part="GND39" gate="1" pin="GND"/>
+<wire x1="421.64" y1="104.14" x2="424.18" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="1" pin="2"/>
-<pinref part="IC3" gate="G$1" pin="UGND"/>
-<pinref part="SJ1" gate="1" pin="1"/>
-<pinref part="L3" gate="G$1" pin="2"/>
-<pinref part="P1" gate="G$1" pin="GND"/>
+<wire x1="424.18" y1="104.14" x2="431.8" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="424.18" y1="104.14" x2="424.18" y2="111.76" width="0.1524" layer="91"/>
+<junction x="424.18" y="104.14"/>
 </segment>
 <segment>
 <wire x1="309.88" y1="12.7" x2="309.88" y2="10.16" width="0.1524" layer="91"/>
@@ -18623,61 +18658,73 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </net>
 <net name="N$9" class="0">
 <segment>
-<wire x1="383.54" y1="116.84" x2="383.54" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="383.54" y1="104.14" x2="386.08" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="104.14" x2="388.62" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="104.14" x2="391.16" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="391.16" y1="104.14" x2="396.24" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="104.14" x2="375.92" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="104.14" x2="383.54" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="104.14" x2="396.24" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="104.14" x2="398.78" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="116.84" x2="386.08" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="116.84" x2="388.62" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="391.16" y1="116.84" x2="391.16" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="109.22" x2="396.24" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="109.22" x2="398.78" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="104.14" x2="401.32" y2="104.14" width="0.1524" layer="91"/>
-<junction x="386.08" y="104.14"/>
-<junction x="388.62" y="104.14"/>
-<junction x="391.16" y="104.14"/>
 <junction x="396.24" y="104.14"/>
 <junction x="398.78" y="104.14"/>
-<pinref part="P1" gate="G$1" pin="SH$1"/>
-<pinref part="P1" gate="G$1" pin="SH$2"/>
-<pinref part="P1" gate="G$1" pin="SH$3"/>
-<pinref part="P1" gate="G$1" pin="SH$4"/>
 <pinref part="Z1" gate="G$1" pin="2"/>
 <pinref part="Z2" gate="G$1" pin="2"/>
 <pinref part="L3" gate="G$1" pin="1"/>
+<pinref part="P1" gate="G$1" pin="FIX2"/>
+<wire x1="373.38" y1="104.14" x2="373.38" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="P1" gate="G$1" pin="TAB2"/>
+<wire x1="375.92" y1="114.3" x2="375.92" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="P1" gate="G$1" pin="PIN2"/>
+<wire x1="381" y1="119.38" x2="383.54" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="119.38" x2="383.54" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="104.14" x2="365.76" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="104.14" x2="365.76" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="142.24" x2="373.38" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="142.24" x2="375.92" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="142.24" x2="383.54" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="142.24" x2="383.54" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="P1" gate="G$1" pin="PIN1"/>
+<wire x1="383.54" y1="134.62" x2="381" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="P1" gate="G$1" pin="TAB1"/>
+<wire x1="375.92" y1="139.7" x2="375.92" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="P1" gate="G$1" pin="FIX1"/>
+<wire x1="373.38" y1="139.7" x2="373.38" y2="142.24" width="0.1524" layer="91"/>
+<junction x="373.38" y="142.24"/>
+<junction x="375.92" y="142.24"/>
+<junction x="373.38" y="104.14"/>
+<junction x="375.92" y="104.14"/>
+<junction x="383.54" y="104.14"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <wire x1="396.24" y1="119.38" x2="396.24" y2="127" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="127" x2="393.7" y2="127" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="127" x2="381" y2="127" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="127" x2="406.4" y2="127" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="127" x2="406.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="119.38" x2="414.02" y2="119.38" width="0.1524" layer="91"/>
 <junction x="396.24" y="127"/>
 <pinref part="Z1" gate="G$1" pin="1"/>
-<pinref part="P1" gate="G$1" pin="D+"/>
 <pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="P1" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <wire x1="398.78" y1="119.38" x2="398.78" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="398.78" y1="129.54" x2="393.7" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="129.54" x2="381" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="121.92" x2="408.94" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="121.92" x2="408.94" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="129.54" x2="398.78" y2="129.54" width="0.1524" layer="91"/>
 <junction x="398.78" y="129.54"/>
 <pinref part="Z2" gate="G$1" pin="1"/>
-<pinref part="P1" gate="G$1" pin="D-"/>
 <pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="P1" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="N$115" class="0">
 <segment>
-<wire x1="396.24" y1="132.08" x2="393.7" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="132.08" x2="381" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 <pinref part="P1" gate="G$1" pin="VBUS"/>
 </segment>
@@ -18863,6 +18910,28 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pinref part="JP2" gate="G$1" pin="9"/>
 <wire x1="226.06" y1="266.7" x2="210.82" y2="266.7" width="0.2032" layer="91"/>
 <label x="210.82" y="266.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<wire x1="434.34" y1="116.84" x2="424.18" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="424.18" y1="116.84" x2="421.64" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="421.64" y1="114.3" x2="421.64" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="421.64" y1="116.84" x2="419.1" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="109.22" x2="419.1" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="416.56" y1="104.14" x2="416.56" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="416.56" y1="109.22" x2="419.1" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="381" y1="121.92" x2="403.86" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="121.92" x2="403.86" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="109.22" x2="416.56" y2="109.22" width="0.1524" layer="91"/>
+<junction x="421.64" y="116.84"/>
+<junction x="416.56" y="109.22"/>
+<pinref part="IC3" gate="G$1" pin="UGND"/>
+<pinref part="SJ1" gate="1" pin="1"/>
+<pinref part="L3" gate="G$1" pin="2"/>
+<pinref part="P1" gate="G$1" pin="GND"/>
+<wire x1="424.18" y1="116.84" x2="424.18" y2="114.3" width="0.1524" layer="91"/>
+<junction x="424.18" y="116.84"/>
 </segment>
 </net>
 </nets>
