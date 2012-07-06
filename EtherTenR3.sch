@@ -16967,13 +16967,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pinref part="IC5" gate="G$1" pin="PC3(ADC3)"/>
 </segment>
 </net>
-<net name="A4" class="0">
-<segment>
-<wire x1="452.12" y1="73.66" x2="469.9" y2="73.66" width="0.1524" layer="91"/>
-<label x="454.66" y="73.66" size="1.778" layer="95"/>
-<pinref part="IC5" gate="G$1" pin="PC4(ADC4/SDA)"/>
-</segment>
-</net>
 <net name="A5_SCL" class="0">
 <segment>
 <wire x1="22.86" y1="215.9" x2="35.56" y2="215.9" width="0.1524" layer="91"/>
@@ -18910,6 +18903,11 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pinref part="JP2" gate="G$1" pin="9"/>
 <wire x1="226.06" y1="266.7" x2="210.82" y2="266.7" width="0.2032" layer="91"/>
 <label x="210.82" y="266.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="452.12" y1="73.66" x2="469.9" y2="73.66" width="0.1524" layer="91"/>
+<label x="454.66" y="73.66" size="1.778" layer="95"/>
+<pinref part="IC5" gate="G$1" pin="PC4(ADC4/SDA)"/>
 </segment>
 </net>
 <net name="N$3" class="0">
