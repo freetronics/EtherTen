@@ -19542,12 +19542,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,340.36,25.4,RN8D,1,,,,"/>
-<approved hash="101,1,350.52,25.4,RN8D,2,,,,"/>
-<approved hash="101,1,340.36,12.7,RN7A,1,,,,"/>
-<approved hash="101,1,350.52,12.7,RN7A,2,,,,"/>
-<approved hash="101,1,340.36,17.78,RN7C,1,,,,"/>
-<approved hash="101,1,350.52,17.78,RN7C,2,,,,"/>
+<approved hash="101,1,408.94,10.16,RN8D,1,,,,"/>
+<approved hash="101,1,419.1,10.16,RN8D,2,,,,"/>
+<approved hash="101,1,447.04,10.16,RN7A,1,,,,"/>
+<approved hash="101,1,457.2,10.16,RN7A,2,,,,"/>
+<approved hash="101,1,429.26,10.16,RN7C,1,,,,"/>
+<approved hash="101,1,439.42,10.16,RN7C,2,,,,"/>
 <approved hash="104,1,172.72,167.64,IC2,VCC,5V,,,"/>
 <approved hash="104,1,434.34,144.78,IC3,AVCC,5V,,,"/>
 <approved hash="104,1,434.34,111.76,IC3,PAD,GND,,,"/>
@@ -19556,6 +19556,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <approved hash="104,1,434.34,137.16,IC3,VCC,5V,,,"/>
 <approved hash="104,1,299.72,129.54,IC4P,V+,5V,,,"/>
 <approved hash="104,1,299.72,114.3,IC4P,V-,GND,,,"/>
+<approved hash="104,1,365.76,22.86,IC7,VCC,5V,,,"/>
 <approved hash="206,1,55.88,149.86,3V3D,,,,,"/>
 <approved hash="206,1,55.88,147.32,3V3D,,,,,"/>
 <approved hash="206,1,45.72,167.64,3V3D,,,,,"/>
