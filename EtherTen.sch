@@ -308,35 +308,6 @@
 <vertex x="-0.7874" y="1.2954"/>
 </polygon>
 </package>
-<package name="SOT23-3">
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="TO-92">
-<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
-<wire x1="-2.0946" y1="-1.651" x2="-0.7863" y2="2.5485" width="0.2032" layer="21" curve="-111.098957" cap="flat"/>
-<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.2032" layer="21" curve="-111.09954" cap="flat"/>
-<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.2032" layer="21"/>
-<pad name="3" x="1.27" y="0" drill="0.8128"/>
-<pad name="2" x="0" y="1.905" drill="0.8128"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128"/>
-<text x="3.175" y="0.635" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.175" y="-1.27" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="GND">
@@ -364,47 +335,6 @@
 <pin name="ADJ" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
 <pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="out" rot="R180"/>
 <pin name="OUT@1" x="7.62" y="-2.54" visible="off" length="short" direction="out" rot="R180"/>
-</symbol>
-<symbol name="MOSFET-NCHANNEL">
-<wire x1="-3.6576" y1="2.413" x2="-3.6576" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="1.905" x2="-2.0066" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.905" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="0" x2="-0.762" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="-0.508" x2="-0.762" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="0.508" x2="-2.032" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="0.254" x2="-1.778" y2="0" width="0.3048" layer="94"/>
-<wire x1="-1.778" y1="0" x2="-0.889" y2="-0.254" width="0.3048" layer="94"/>
-<wire x1="-0.889" y1="-0.254" x2="-0.889" y2="0" width="0.3048" layer="94"/>
-<wire x1="-0.889" y1="0" x2="-1.143" y2="0" width="0.3048" layer="94"/>
-<wire x1="2.54" y1="1.905" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0.762" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0.762" x2="1.905" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="-0.635" x2="3.175" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-0.635" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="0.762" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0.762" x2="3.175" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="0.762" x2="3.429" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="0.762" x2="1.651" y2="0.508" width="0.1524" layer="94"/>
-<circle x="0" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
-<circle x="0" y="1.905" radius="0.127" width="0.4064" layer="94"/>
-<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-1.27" y="2.54" size="0.8128" layer="93">D</text>
-<text x="-1.27" y="-3.556" size="0.8128" layer="93">S</text>
-<text x="-5.08" y="-1.27" size="0.8128" layer="93">G</text>
-<rectangle x1="-2.794" y1="-2.54" x2="-2.032" y2="-1.27" layer="94"/>
-<rectangle x1="-2.794" y1="1.27" x2="-2.032" y2="2.54" layer="94"/>
-<rectangle x1="-2.794" y1="-0.889" x2="-2.032" y2="0.889" layer="94"/>
-<pin name="G" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -469,33 +399,6 @@ Adjustable low-dropout voltage regulator available in SOT89 and SOT223 SMT packa
 <connect gate="G$1" pin="IN" pad="3"/>
 <connect gate="G$1" pin="OUT" pad="2"/>
 <connect gate="G$1" pin="OUT@1" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MOSFET-NCHANNEL" prefix="Q">
-<gates>
-<gate name="G$1" symbol="MOSFET-NCHANNEL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH" package="TO-92">
-<connects>
-<connect gate="G$1" pin="D" pad="1"/>
-<connect gate="G$1" pin="G" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -19447,6 +19350,80 @@ Tactile switch, normally-open.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SuperHouse-Regulators" urn="urn:adsk.eagle:library:11786698">
+<packages>
+<package name="SOT-223" urn="urn:adsk.eagle:footprint:11860988/1" library_version="9">
+<description>SOT-223</description>
+<wire x1="3.2766" y1="1.778" x2="3.2766" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.2766" y1="-1.778" x2="-3.2766" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="-1.778" x2="-3.2766" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="1.778" x2="3.2766" y2="1.778" width="0.2032" layer="21"/>
+<smd name="1" x="-2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="2" x="0" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="3" x="2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
+<text x="-3.81" y="6.4008" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="5.0292" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOT230P700X180-4" urn="urn:adsk.eagle:package:11860990/2" type="model" library_version="9">
+<description>4-SOT223, 2.30 mm pitch, 7.00 mm span, 6.50 X 3.50 X 1.80 mm body
+&lt;p&gt;4-pin SOT223 package with 2.30 mm pitch, 7.00 mm span with body size 6.50 X 3.50 X 1.80 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT-223"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="LD1117-FIXED" urn="urn:adsk.eagle:symbol:11860989/1" library_version="9">
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="-3.81" y="7.239" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.81" y="5.588" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-1.9558" y="-1.778" size="1.524" layer="95">GND</text>
+<text x="-4.445" y="1.905" size="1.524" layer="95">IN</text>
+<text x="0.635" y="1.905" size="1.524" layer="95">OUT</text>
+<pin name="IN" x="-7.62" y="2.54" visible="off" length="short" direction="in"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="in" rot="R90"/>
+<pin name="OUT" x="7.62" y="2.54" visible="off" length="short" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LD1117" urn="urn:adsk.eagle:component:11860991/2" prefix="VR" library_version="9">
+<description>Fixed-voltage LD1117 series LDOs in SOT-223 package.
+Note that the ground pin is labelled as ground, not as adj, because it's not the adjustable-voltage part.</description>
+<gates>
+<gate name="G$1" symbol="LD1117-FIXED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-223">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2 4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11860990/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19485,7 +19462,6 @@ Tactile switch, normally-open.</description>
 <part name="GND13" library="freetronics" deviceset="GND" device=""/>
 <part name="FID1" library="freetronics" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="FID2" library="freetronics" deviceset="FIDUCIAL" device="1X2.5"/>
-<part name="REG2" library="freetronics" deviceset="V_REG_LM1117" device="SOT223" value="LD1117-SOT223"/>
 <part name="REG1" library="freetronics" deviceset="V_REG_LM1117" device="SOT89" value="LD1117-SOT89"/>
 <part name="U1" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="HY931147C" device="-RJ45" package3d_urn="urn:adsk.eagle:package:11872177/2"/>
 <part name="GND4" library="freetronics" deviceset="GND" device=""/>
@@ -19544,7 +19520,7 @@ Tactile switch, normally-open.</description>
 <part name="GND32" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$1" library="SparkFun" deviceset="5V" device=""/>
 <part name="U$4" library="SparkFun" deviceset="5V" device=""/>
-<part name="Q2" library="freetronics" deviceset="MOSFET-NCHANNEL" device="SMD" value="2N7002"/>
+<part name="Q2" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="MOSFET-NCHANNEL" device="-233" package3d_urn="urn:adsk.eagle:package:11815952/3" value="2N7002"/>
 <part name="GND33" library="SparkFun" deviceset="GND" device=""/>
 <part name="LED10" library="SuperHouse-LEDs" library_urn="urn:adsk.eagle:library:11790571" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:7066240/3" value="D13/RED"/>
 <part name="R8" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K 0603"/>
@@ -19631,6 +19607,7 @@ Tactile switch, normally-open.</description>
 <part name="SJ5" library="freetronics-jon" library_urn="urn:adsk.eagle:library:7065448" deviceset="SJC" device="N" package3d_urn="urn:adsk.eagle:package:7066342/1" value="SJCN"/>
 <part name="SJ6" library="freetronics-jon" library_urn="urn:adsk.eagle:library:7065448" deviceset="SJC" device="N" package3d_urn="urn:adsk.eagle:package:7066342/1" value="SJCN"/>
 <part name="U$6" library="SparkFun" deviceset="5V" device=""/>
+<part name="REG2" library="SuperHouse-Regulators" library_urn="urn:adsk.eagle:library:11786698" deviceset="LD1117" device="" package3d_urn="urn:adsk.eagle:package:11860990/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -19810,10 +19787,6 @@ Tactile switch, normally-open.</description>
 </instance>
 <instance part="FID1" gate="G$1" x="241.3" y="15.24" smashed="yes"/>
 <instance part="FID2" gate="G$1" x="241.3" y="10.16" smashed="yes"/>
-<instance part="REG2" gate="G$1" x="48.26" y="149.86" smashed="yes">
-<attribute name="NAME" x="43.18" y="152.4" size="1.778" layer="95"/>
-<attribute name="VALUE" x="40.64" y="142.24" size="1.778" layer="96"/>
-</instance>
 <instance part="REG1" gate="G$1" x="38.1" y="167.64" smashed="yes">
 <attribute name="NAME" x="33.02" y="170.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="30.48" y="160.02" size="1.778" layer="96"/>
@@ -20428,6 +20401,10 @@ Tactile switch, normally-open.</description>
 <instance part="U$6" gate="G$1" x="396.24" y="88.9" smashed="yes">
 <attribute name="VALUE" x="395.224" y="92.456" size="1.778" layer="96"/>
 </instance>
+<instance part="REG2" gate="G$1" x="48.26" y="147.32" smashed="yes">
+<attribute name="NAME" x="44.45" y="154.559" size="1.27" layer="95"/>
+<attribute name="VALUE" x="44.45" y="152.908" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20532,10 +20509,10 @@ Tactile switch, normally-open.</description>
 <junction x="10.16" y="124.46"/>
 <junction x="48.26" y="139.7"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="REG2" gate="G$1" pin="ADJ"/>
 <pinref part="C10" gate="G$1" pin="-"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="REG1" gate="G$1" pin="ADJ"/>
+<pinref part="REG2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
@@ -21371,23 +21348,18 @@ Tactile switch, normally-open.</description>
 <wire x1="67.31" y1="149.86" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="67.31" y1="139.7" x2="67.31" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="67.31" y1="167.64" x2="67.31" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="149.86" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="149.86" x2="67.31" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="147.32" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="149.86" x2="67.31" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="167.64" x2="48.26" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="167.64" x2="67.31" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="165.1" x2="48.26" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="165.1" x2="48.26" y2="167.64" width="0.1524" layer="91"/>
 <junction x="67.31" y="149.86"/>
-<junction x="58.42" y="149.86"/>
 <junction x="48.26" y="167.64"/>
 <label x="77.47" y="149.86" size="1.778" layer="95"/>
-<pinref part="REG2" gate="G$1" pin="OUT"/>
-<pinref part="REG2" gate="G$1" pin="OUT@1"/>
 <pinref part="REG1" gate="G$1" pin="OUT"/>
 <pinref part="REG1" gate="G$1" pin="OUT@1"/>
 <pinref part="C10" gate="G$1" pin="+"/>
+<pinref part="REG2" gate="G$1" pin="OUT"/>
 </segment>
 <segment>
 <wire x1="105.41" y1="137.16" x2="92.71" y2="137.16" width="0.1524" layer="91"/>
@@ -21680,10 +21652,10 @@ Tactile switch, normally-open.</description>
 <junction x="27.94" y="149.86"/>
 <junction x="10.16" y="149.86"/>
 <junction x="27.94" y="149.86"/>
-<pinref part="REG2" gate="G$1" pin="IN"/>
 <pinref part="REG1" gate="G$1" pin="IN"/>
 <pinref part="U$5" gate="G$1" pin="5V"/>
 <pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="REG2" gate="G$1" pin="IN"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="248.92" x2="35.56" y2="248.92" width="0.1524" layer="91"/>
